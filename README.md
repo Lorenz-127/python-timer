@@ -1,12 +1,17 @@
-# Python Timer Application
+# Python Timer and Stopwatch Application
 
-A simple, user-friendly timer application built with Python and Tkinter.
+A simple, user-friendly timer and stopwatch application built with Python and Tkinter.
 
 ## Features
 
-- Set timer for hours, minutes, and seconds
-- Start, stop, and reset functionality
-- Visual countdown display
+- Timer functionality:
+  - Set timer for hours, minutes, and seconds
+  - Start, stop, and reset functionality
+  - Visual countdown display
+- Stopwatch functionality:
+  - Start, stop, and reset functionality
+  - Visual time display
+- Switch between timer and stopwatch modes
 - Error handling for invalid inputs
 
 ## Requirements
@@ -20,8 +25,8 @@ A simple, user-friendly timer application built with Python and Tkinter.
 2. Clone this repository or download the `timer_app.py` file.
 
 ```bash
-git clone https://github.com/yourusername/python-timer.git
-cd python-timer
+git clone https://github.com/yourusername/python-timer-stopwatch.git
+cd python-timer-stopwatch
 ```
 
 ## Usage
@@ -32,13 +37,20 @@ Run the script using Python:
 python timer.py
 ```
 
-1. Enter the desired time in the hours, minutes, and seconds fields.
-2. Click "Start" to begin the countdown.
-3. Use "Stop" to pause the timer and "Reset" to clear the timer and input fields.
+### Timer Mode
+1. Click the "Timer" button to switch to timer mode.
+2. Enter the desired time in the hours, minutes, and seconds fields.
+3. Click "Start" to begin the countdown.
+4. Use "Stop" to pause the timer and "Reset" to clear the timer and input fields.
+
+### Stopwatch Mode
+1. Click the "Stopwatch" button to switch to stopwatch mode.
+2. Click "Start" to begin the stopwatch.
+3. Use "Stop" to pause the stopwatch and "Reset" to clear the time.
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/yourusername/python-timer/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/yourusername/python-timer-stopwatch/issues) if you want to contribute.
 
 ## License
 
